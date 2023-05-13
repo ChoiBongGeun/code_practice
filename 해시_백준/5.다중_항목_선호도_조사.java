@@ -13,7 +13,7 @@ public class Main {
         for(int i =0; i < n; i++)
         {
             String s = br.readLine();
-            String[]sList = s.split(" ");
+            String[]sList = s.split(" "); // 배열 말고 다르게 
             student[i] = sList;
         }
         for(int i = 0; i < M; i++)
