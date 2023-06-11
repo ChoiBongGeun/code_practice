@@ -12,7 +12,6 @@ class Solution {
             map.put((str+str+str),str);
             numberlist.add((str+str+str));
         }
-        System.out.print(map);
         Collections.sort(numberlist);
         for(int i=numberlist.size()-1; i >= 0; i--){
             answerlist.add(map.get(numberlist.get(i)));

@@ -19,7 +19,7 @@ class Solution {
     }
     void dfs(int i)
     {
-        check[i] = true;
+        check[i] = true; 
         for(int j = 0 ; j < computers.length; j++)
         {
             if(computers[i][j] ==1 && !check[j])

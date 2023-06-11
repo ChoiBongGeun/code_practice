@@ -4,7 +4,6 @@ class Solution {
         int answer = 0;
         int time = 0;
         int n = jobs.length;
-        PriorityQueue<int[]> PriorityQueue = new PriorityQueue<>((o1, o2) -> o1[1] - o2[1]);
         List<int[]> jobList = new ArrayList<>();
         Arrays.sort(jobs, (o1, o2) -> o1[1] - o2[1]); // 작업 걸리는 순으로 정렬
         // remove를 위한 List에 넣기

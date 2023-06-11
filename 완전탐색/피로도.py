@@ -3,7 +3,7 @@ def solution(k, dungeons):
     answer = -1
     answerList=[]
     kcopy = k
-    score = 0;
+    score = 0
     dungeonsList = list(itertools.permutations(dungeons,len(dungeons))) # itertools.permutations 모든 경우의 수 구하는 라이브러리 (순열)
     print(dungeonsList[1][2])
     for i in range(0,len(dungeonsList)):
