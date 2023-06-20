@@ -8,7 +8,8 @@ class Solution {
         
         for(int n : numberList)
         {
-            while(answerList.size() >0 && answerList.get(answerList.size()-1) < n && k >0) //answerList 리스트 크기가 0보다 크고 answerList의 마지막 수가 n과 비교 했을때 작으면 하나 제거 하고 k를 줄인다
+            while(answerList.size() >0 && answerList.get(answerList.size()-1) < n && k >0) 
+            //answerList 리스트 크기가 0보다 크고 answerList의 마지막 수가 n과 비교 했을때 작으면 하나 제거 하고 k를 줄인다
             {
                 k --;
                 answerList.remove(answerList.size()-1);
