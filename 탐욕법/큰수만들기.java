@@ -1,10 +1,10 @@
 import java.util.*;
 import java.util.stream.Stream;
 class Solution {
-    public String solution(String number, int k) {
+    public String solution(String number, int k) { 
         String answer = "";
         int[] numberList = Stream.of(number.split("")).mapToInt(Integer::parseInt).toArray();
-        List<Integer> answerList = new ArrayList<>();
+        List<Integer> answerList = new ArrayList<>(); 
         
         for(int n : numberList)
         {
