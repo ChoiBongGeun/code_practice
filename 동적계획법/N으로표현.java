@@ -2,17 +2,17 @@ import java.util.HashSet;
 import java.util.Set;
 class Solution {
     public int solution(int N, int number) {
-       int answer = -1;
+        int answer = -1;
         Set<Integer>[] setList = new Set[9]; // 8개의 통을 만든다
         setList[1] = new HashSet<>(); // 초기값 설정
-        setList[1].add(N);
-        int init = N;
+        setList[1].add(N); //5
+        int init = N; //55
         for(int i = 2; i < 9; i++) {
-            init = init*10+N ;
+            init = init*10+N ; //5555555555
             setList[i] = new HashSet<>();
             setList[i].add(init);
         }//2부터 N이 5일때 5 55 555 이런식으로 늘려줘서 setList에 넣어줌
-        for(int i = 1; i < 9; i++) {
+        for(int i = 2; i < 9; i++) {
             for(int j = 1; j < i; j++) {
                 for(Integer a : setList[j]) {
                     for(Integer b : setList[i - j]) {
