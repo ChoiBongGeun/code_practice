@@ -8,7 +8,7 @@ class Solution {
             game[results[i][1]][results[i][0]] = -1;
         }
 
-        // A > B, B> C =>  A>C
+        // A > B, B> C =>  A>C  플로이드 와샬 알고리즘
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= n; j++){
                 for(int k = 1; k <= n; k++){
