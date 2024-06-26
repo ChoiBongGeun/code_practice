@@ -118,4 +118,5 @@ type Color = 'red' | 'green' | 'blue' | 'yellow' | 'pink';
         ```
 
   - 빌드 후 bundle 크기 비교
-![image](https://github.com/ChoiBongGeun/code_practice/assets/32670745/6c26b70b-e5b1-4d0f-bd7e-15f31c92d75b)
+
+	![image](https://github.com/ChoiBongGeun/code_practice/assets/32670745/6c26b70b-e5b1-4d0f-bd7e-15f31c92d75b)
