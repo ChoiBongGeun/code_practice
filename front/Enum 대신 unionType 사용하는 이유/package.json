@@ -1,0 +1,30 @@
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^4.9.5",
+    "webpack": "^5.92.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "build": "^0.1.4",
+    "lodash": "^4.17.21",
+    "lodashnpm": "^1.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "run": "^1.5.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
